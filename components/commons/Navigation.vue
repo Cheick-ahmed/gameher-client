@@ -247,6 +247,8 @@ export default {
 	watch: {
 		'$route.name'() {
 			this.mobileMenu = false
+			this.teamFlyoutMenu = false
+			this.blogFlyoutMenu = false
 		}
 	},
 
