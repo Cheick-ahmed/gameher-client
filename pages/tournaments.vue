@@ -1,9 +1,11 @@
 <template>
 	<div>
-		<div class="text-center py-16">
-			<h2 class="text-base font-extrabold text-base-red-darken-3 tracking-wide uppercase">Nos tournois</h2>
-			<p class="mt-1 text-4xl font-extrabold text-base-light-gray sm:text-5xl sm:tracking-tight lg:text-6xl">Game'her league</p>
-			<p class="max-w-xl mt-5 mx-auto text-xl text-gray-500">Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
+		<div class="text-center pt-10 pb-16">
+			<h2 class="text-base font-extrabold text-base-red-darken-3 tracking-wide uppercase"></h2>
+			<p class="mt-1 text-4xl font-extrabold text-base-light-gray sm:text-5xl sm:tracking-tight lg:text-6xl">
+				Nos tournois
+			</p>
+			<p class="max-w-lg mt-5 mx-auto text-xl text-gray-500">Découvrez tous nos tournois mettant en avant la mixité dans l'esport</p>
 		</div>
 
 		<div class="relative bg-base-light-gray">
@@ -18,29 +20,32 @@
 			<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
 				<div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
 					<h2 class="text-sm font-semibold tracking-wide uppercase">
-						<span class="text-base-yellow uppercase">Game'her league</span>
+						<span class="text-base-orange uppercase">Game'her league</span>
 					</h2>
 					<p class="mt-3 text-3xl font-extrabold text-white">Découvrez le premier tournoi mettant en avant la mixité dans l'esport, la Game'Her League.</p>
 					<div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
 						<p>
-							<span class="block text-2xl font-bold text-white">2017</span>
-							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Création</span></span>
+							<span class="block text-2xl font-bold text-base-orange">210</span>
+							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Joueurs</span></span>
 						</p>
 
 						<p>
-							<span class="block text-2xl font-bold text-white">55+</span>
-							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Membres</span></span>
+							<span class="block text-2xl font-bold text-base-orange">52+</span>
+							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Equipes</span></span>
 						</p>
 
 						<p>
-							<span class="block text-2xl font-bold text-white">2</span>
-							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Équipes</span></span>
+							<span class="block text-2xl font-bold text-base-orange">59+</span>
+							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Match disputés</span></span>
 						</p>
 
 						<p>
-							<span class="block text-2xl font-bold text-white">6+</span>
-							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Compétitions</span></span>
+							<span class="block text-2xl font-bold text-base-orange">13+</span>
+							<span class="mt-1 block text-base text-gray-300"><span class="font-medium text-white">Nombres de qualifiers</span></span>
 						</p>
+					</div>
+					<div class="mt-16 transform -translate-x-4 lg:mt-8 lg:-translate-x-10 lg:translate-y-8">
+						<img src="https://gameher.fr/build/img/tournaments/podium.png">
 					</div>
 				</div>
 			</div>
@@ -50,7 +55,6 @@
 
 <script>
 export default {
-
 	data () {
 		return {
 
