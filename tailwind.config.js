@@ -12,6 +12,7 @@
   		extend: {
   			colors: {
   				'base-light-gray': '#051623',
+          'base-red': '#c92e4b',
   				'base-red-darken-3' : '#b93c4e',
   				'base-yellow': '#fbf3ab',
   				'base-yellow-2': '#e29337',
@@ -26,5 +27,7 @@
   	},
   	plugins: [
   		require('@tailwindcss/forms'),
+      require('@tailwindcss/typography'),
+      require('@tailwindcss/aspect-ratio'),
   	],
   }
