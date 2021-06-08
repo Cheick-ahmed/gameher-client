@@ -40,7 +40,7 @@
 					</div>
 					<div class="lg:mt-0 flex items-center justify-center">
 						<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img class="w-64" src="https://gameher.fr/uploads/partners/lmn8_noir-5e9189665724e.png" alt="LMN8">
+              <img class="w-64" src="~/assets/img/lmn8.png" alt="LMN8">
             </div>
 					</div>
 				</div>
@@ -66,7 +66,7 @@
 					</div>
 					<div class="lg:mt-0 lg:col-start-1 flex items-center justify-center">
 						<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
-              <img class="w-64" src="~/assets/img/logo_NewGo-black.png" alt="lmn8">
+              <img class="w-64" src="~/assets/img/New_go.png" alt="lmn8">
             </div>
 					</div>
 				</div>
@@ -95,7 +95,7 @@
 					</div>
 					<div class="lg:mt-0 flex items-center justify-center">
 						<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-              <img class="w-64" src="~/assets/img/logo_esport_agora_black.png" alt="lmn8">
+              <img class="w-64" src="~/assets/img/esport_agora.png" alt="lmn8">
             </div>
 					</div>
 				</div>
@@ -123,7 +123,7 @@
 					</div>
 					<div class="lg:mt-0 lg:col-start-1 flex items-center justify-center">
 						<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1 items-center">
-              <img class="w-64" src="~/assets/img/logo_konix-black.png" alt="lmn8">
+              <img class="w-64" src="~/assets/img/konix.png" alt="lmn8">
             </div>
 					</div>
 				</div>
