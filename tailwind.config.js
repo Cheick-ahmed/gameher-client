@@ -15,6 +15,7 @@
   				'base-red-darken-3' : '#b93c4e',
   				'base-yellow': '#fbf3ab',
   				'base-yellow-2': '#e29337',
+          'base-orange': '#ef900d',
   				'warm-gray': colors.warmGray,
   				teal: colors.teal
   			}
