@@ -117,7 +117,7 @@
 					<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
 						<div>
 							<div>
-								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
+								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
 									<!-- Heroicon name: outline/sparkles -->
 									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -133,7 +133,7 @@
 									Nous souhaitons également les aider à évoluer dans les domaines du streaming et/ou de l’esport. Notre but étant de s’ouvrir à la mixité et à la diversité dans ces domaines tout en démocratisant la place de la femme dans l’univers du jeu vidéo.
 								</p>
 								<div class="mt-6">
-									<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-purple-600 to-base-red-darken-3">
+									<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
 										En savoir plus
 									</a>
 								</div>
@@ -150,7 +150,7 @@
 		</div>
 
 		<!-- Gradient Feature Section -->
-		<div class="bg-gradient-to-r from-gray-900 to-base-red-darken-3">
+		<div class="bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
 			<div class="max-w-4xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
 				<h2 class="text-3xl font-extrabold text-white tracking-tight uppercase">
 					Ce que nous faisons
@@ -265,12 +265,12 @@
 		</div>
 
 		<!-- Stats section -->
-		<div class="relative bg-gray-900">
+		<div class="relative bg-base-light-gray">
 			<div class="h-80 absolute inset-x-0 bottom-0 xl:top-0 xl:h-full">
 				<div class="h-full w-full xl:grid xl:grid-cols-2">
 					<div class="h-full xl:relative xl:col-start-2">
-						<img class="h-full w-full object-cover opacity-5 xl:absolute xl:inset-0" src="https://gameher.fr/build/img/logo_footer.png" alt="People working on laptops">
-						<div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"></div>
+						<img class="h-full w-full object-cover opacity-5 xl:absolute xl:inset-0" src="~/assets/SVG/GH_white_vertical.svg" alt="People working on laptops">
+						<div aria-hidden="true" class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-base-light-gray xl:inset-y-0 xl:left-0 xl:h-full xl:w-28 xl:bg-gradient-to-r"></div>
 					</div>
 				</div>
 			</div>
