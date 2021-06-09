@@ -1,6 +1,6 @@
 <template>
 	<header>
-		<div class="relative bg-white">
+		<div class="relative bg-white z-50">
 			<div class="flex justify-between items-center max-w-7xl mx-auto px-4 py-6 sm:px-6 md:justify-start md:space-x-8">
 				<div class="flex justify-start lg:w-0 lg:flex-1">
 					<nuxt-link :to="{ name : 'index' }">
@@ -98,7 +98,7 @@
 							<div v-if="teamFlyoutMenu" class="absolute left-1/2 z-10 transform -translate-x-1/2 mt-5 px-2 w-screen max-w-md sm:px-0">
 								<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 									<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-										<nuxt-link :to="{ name : '' }" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
+										<nuxt-link :to="{ name : 'about' }" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 											<!-- Heroicon name: outline/support -->
 											<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
@@ -156,7 +156,7 @@
 			</div>
 
 			<transition enter-active-class="duration-200 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
-				<div v-if="mobileMenu" class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
+				<div v-if="mobileMenu" class="absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
 					<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
 						<div class="pt-5 pb-6 px-5">
 							<div class="flex items-center justify-between">
@@ -193,7 +193,7 @@
 						<div class="py-6 px-5">
 							<div class="grid grid-cols-2 gap-4">
 
-								<nuxt-link :to="{ name : '' }" class="text-base font-medium text-gray-900 hover:text-gray-700">
+								<nuxt-link :to="{ name : 'about' }" class="text-base font-medium text-gray-900 hover:text-gray-700">
 									A propos
 								</nuxt-link>
 

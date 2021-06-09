@@ -1,0 +1,72 @@
+[
+	{
+		"image": "https://gameher.fr/uploads/members/nichois-5e8f6cb71233c.png",
+		"name": "Viêt-Trung NICHOIS",
+		"role": "Trésorier",
+		"department": "Bureau",
+		"color": "base-yellow"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/noelie-5e58e0f72625b.png",
+		"name": "Noëlie NOËLIE",
+		"role": "Présidente",
+		"department": "Bureau",
+		"color": "base-yellow"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/zinogra-5e8f488a6c178.png",
+		"name": "Louis ZINOGRA",
+		"role": "Secrétaire",
+		"department": "Bureau",
+		"color": "base-yellow"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/zinogra-5e8f488a6c178.png",
+		"name": "ADDENDA",
+		"role": "Responsable Event",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/heegi-5d45a42d8a1c3.png",
+		"name": "Ophélie HEEGI",
+		"role": "Responsable Communication",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/addenda-5f8d43df5518f.png",
+		"name": "ADDENDA",
+		"role": "Responsable Event",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/kini-5f8d4445a5c6a.png",
+		"name": "KINI",
+		"role": "Responsable Esport",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/noelie-5d45a45d16cda.png",
+		"name": "Noëlie NOËLIE",
+		"role": "Rédactrice en Chef",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/wendella-5eeb9bac8ed37.png",
+		"name": "Clémence WENDELLA",
+		"role": "Responsable WebTV",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	},
+	{
+		"image": "https://gameher.fr/uploads/members/kini-5f8d4445a5c6a.png",
+		"name": "Mona TEREBELL",
+		"role": "Responsable Graphisme",
+		"department": "Administration",
+		"color": "base-red-darken-3"
+	}
+]
