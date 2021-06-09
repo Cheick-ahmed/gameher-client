@@ -62,7 +62,7 @@
 					<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
 						<div>
 							<div>
-								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-base-light-gray to-base-yellow-2">
+								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-base-red-darken-3">
 									<!-- Heroicon name: outline/inbox -->
 									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
@@ -79,7 +79,7 @@
 									Nous travaillons exclusivement sur Discord, donc vous n’avez aucune contrainte physique ! Et nous essayons au maximum d’organiser des rencontres IRL entre les membres de l’association dès que nous le pouvons.
 								</p>
 								<div class="mt-6">
-									<nuxt-link :to="{ name : '' }" class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-yellow-2 hover:from-purple-700 hover:to-indigo-700">
+									<nuxt-link :to="{ name : '' }" class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-base-red-darken-3">
 										Nous rejoindre
 									</nuxt-link>
 								</div>
@@ -98,7 +98,7 @@
 											<img class="h-6 w-6 rounded-full" src="https://gameher.fr/build/img/homepage/PHOTOGRAPHIE.png" alt="">
 										</div>
 										<div class="text-base font-medium text-gray-700">
-											Marcia Hill, Digital Marketing Manager
+											Marcia Hill
 										</div>
 									</div>
 								</footer>
@@ -117,7 +117,7 @@
 					<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-32 lg:max-w-none lg:mx-0 lg:px-0 lg:col-start-2">
 						<div>
 							<div>
-								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
+								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-base-light-gray">
 									<!-- Heroicon name: outline/sparkles -->
 									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -133,7 +133,7 @@
 									Nous souhaitons également les aider à évoluer dans les domaines du streaming et/ou de l’esport. Notre but étant de s’ouvrir à la mixité et à la diversité dans ces domaines tout en démocratisant la place de la femme dans l’univers du jeu vidéo.
 								</p>
 								<div class="mt-6">
-									<nuxt-link :to=" { name : 'about' } " class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
+									<nuxt-link :to=" { name : 'about' } " class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-base-light-gray">
 										En savoir plus
 									</nuxt-link>
 								</div>
@@ -294,26 +294,20 @@
 				<div class="px-6 py-6 bg-indigo-700 rounded-lg md:py-12 md:px-12 lg:py-16 lg:px-16 xl:flex xl:items-center">
 					<div class="xl:w-0 xl:flex-1">
 						<h2 class="text-2xl font-extrabold tracking-tight text-white sm:text-3xl">
-							Want product news and updates?
+							Restez informés
 						</h2>
 						<p class="mt-3 max-w-3xl text-lg leading-6 text-indigo-200">
-							Sign up for our newsletter to stay up to date.
+							Inscrivez-vous à notre newsletter pour rester informé
 						</p>
 					</div>
 					<div class="mt-8 sm:w-full sm:max-w-md xl:mt-0 xl:ml-8">
-						<form class="sm:flex">
+						<form class="sm:flex" @submit.prevent="submit">
 							<label for="emailAddress" class="sr-only">Email address</label>
-							<input id="emailAddress" name="emailAddress" type="email" autocomplete="email" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md" placeholder="Enter your email">
+							<input id="emailAddress" v-model="email" name="emailAddress" type="email" autocomplete="off" required class="w-full border-white px-5 py-3 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white rounded-md" placeholder="Entrez votre email">
 							<button type="submit" class="mt-3 w-full flex items-center justify-center px-5 py-3 border border-transparent shadow text-base font-medium rounded-md text-white bg-indigo-500 hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-indigo-700 focus:ring-white sm:mt-0 sm:ml-3 sm:w-auto sm:flex-shrink-0">
-								Notify me
+								Valider
 							</button>
 						</form>
-						<p class="mt-3 text-sm text-indigo-200">
-							We care about the protection of your data. Read our
-							<a href="#" class="text-white font-medium underline">
-								Privacy Policy.
-							</a>
-						</p>
 					</div>
 				</div>
 			</div>
@@ -324,11 +318,27 @@
 </template>
 
 <script>
-export default {
-	data () {
-		return {
-			//
+	import { mapActions } from 'vuex'
+
+	export default {
+		data () {
+			return {
+				email : ''
+			}
+		},
+		methods: {
+			...mapActions({
+				notify: 'notification/notify'
+			}),
+
+			submit() {
+				this.notify({
+					notif: 'Merci! Votre demande d\'adhésion a été prise en compte 👍',
+					time: '1500'
+				})
+
+				this.email = ''
+			}
 		}
 	}
-}
 </script>

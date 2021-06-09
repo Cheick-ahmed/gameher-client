@@ -33,7 +33,9 @@
 		</dl>
 		<div class="space-y-5 xl:col-span-3">
 			<div class="space-x-2">
-				<base-badge v-for="tag in article.tags" :color="tag.color"> {{ tag.text }} </base-badge>
+				<base-badge v-for="(tag,index) in article.tags" :key="index" :color="tag.color">
+					{{ tag.text }}
+				</base-badge>
 			</div>
 			<div class="space-y-3">
 				<h2 class="text-2xl leading-8 font-bold tracking-tight">
@@ -46,7 +48,7 @@
 				</div>
 			</div>
 			<div class="text-base leading-6 font-medium">
-				<nuxt-link :to="{ name : '' }" class="text-teal-500 hover:text-teal-600" aria-label="Read &quot;Tailwind UI: Now with React + Vue support&quot;" href="/tailwind-ui-now-with-react-and-vue-support">
+				<nuxt-link :to="{ name : '' }" class="text-teal-500 hover:text-teal-600" aria-label="Read &quot;Tailwind UI: Now with React + Vue support&quot;">
 					Voir l'article →
 				</nuxt-link>
 			</div>

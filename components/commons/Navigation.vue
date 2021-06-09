@@ -100,7 +100,7 @@
 									<div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
 										<nuxt-link :to="{ name : 'about' }" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 											<!-- Heroicon name: outline/support -->
-											<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<svg class="flex-shrink-0 h-6 w-6 text-base-red-darken-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" />
 											</svg>
 											<div class="ml-4">
@@ -115,7 +115,7 @@
 
 										<nuxt-link :to="{ name : 'contact' }" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
 											<!-- Heroicon name: outline/bookmark-alt -->
-											<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+											<svg class="flex-shrink-0 h-6 w-6 text-base-red-darken-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
 											</svg>
 											<div class="ml-4">
@@ -127,21 +127,6 @@
 												</p>
 											</div>
 										</nuxt-link>
-
-										<nuxt-link :to="{ name : '' }" class="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50">
-											<!-- Heroicon name: outline/calendar -->
-											<svg class="flex-shrink-0 h-6 w-6 text-indigo-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-												<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
-											</svg>
-											<div class="ml-4">
-												<p class="text-base font-medium text-gray-900">
-													Recrutement
-												</p>
-												<p class="mt-1 text-sm text-gray-500">
-													See what meet-ups and other events we might be planning near you.
-												</p>
-											</div>
-										</nuxt-link>
 									</div>
 								</div>
 							</div>
@@ -149,9 +134,9 @@
 					</div>
 				</nav>
 				<div class="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-					<nuxt-link :to="{ name : '' }" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-base-red-darken-3">
+					<a href="https://gameher.lmn8.fr/" target="_blank" rel="nofollow noopener noreferrer" class="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-base-red-darken-3">
 						Boutique
-					</nuxt-link>
+					</a>
 				</div>
 			</div>
 
@@ -201,9 +186,6 @@
 									Contact
 								</nuxt-link>
 
-								<nuxt-link :to="{ name : '' }" class="text-base font-medium text-gray-900 hover:text-gray-700">
-									Recrutement
-								</nuxt-link>
 							</div>
 							<div class="mt-6">
 								<nuxt-link :to="{ name : '' }" class="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-base-red-darken-3">

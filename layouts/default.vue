@@ -1,5 +1,7 @@
 <template>
 	<div class="dark:bg-black min-h-screen">
+
+		<base-notification />
 		<!-- Header -->
 		<commons-navigation />
 

@@ -150,24 +150,24 @@
 
 						<!-- Contact form -->
 						<div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-							<h3 class="text-lg font-medium text-warm-gray-900">Send us a message</h3>
+							<h3 class="text-lg font-medium text-warm-gray-900">Besoin d'entrer en contact avec nous ?</h3>
 							<form action="#" method="POST" class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
 								<div>
 									<label for="first_name" class="block text-sm font-medium text-warm-gray-900">Votre prénom</label>
 									<div class="mt-1">
-										<input type="text" name="first_name" id="first_name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-yellow focus:border-base-yellow border-warm-gray-300 rounded-md">
+										<input type="text" name="first_name" id="first_name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-red-darken-3 focus:border-base-red-darken-3 border-warm-gray-300 rounded-md">
 									</div>
 								</div>
 								<div>
 									<label for="last_name" class="block text-sm font-medium text-warm-gray-900">Votre nom</label>
 									<div class="mt-1">
-										<input type="text" name="last_name" id="last_name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-yellow focus:border-base-yellow border-warm-gray-300 rounded-md">
+										<input type="text" name="last_name" id="last_name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-red-darken-3 focus:border-base-red-darken-3 border-warm-gray-300 rounded-md">
 									</div>
 								</div>
 								<div>
 									<label for="email" class="block text-sm font-medium text-warm-gray-900">Votre Email</label>
 									<div class="mt-1">
-										<input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-yellow focus:border-base-yellow border-warm-gray-300 rounded-md">
+										<input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-red-darken-3 focus:border-base-red-darken-3 border-warm-gray-300 rounded-md">
 									</div>
 								</div>
 								<div>
@@ -176,7 +176,7 @@
 										<span id="phone-optional" class="text-sm text-warm-gray-500">Facultatif</span>
 									</div>
 									<div class="mt-1">
-										<input type="text" name="phone" id="phone" autocomplete="tel" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-yellow focus:border-base-yellow border-warm-gray-300 rounded-md" aria-describedby="phone-optional">
+										<input type="text" name="phone" id="phone" autocomplete="tel" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-red-darken-3 focus:border-base-red-darken-3 border-warm-gray-300 rounded-md" aria-describedby="phone-optional">
 									</div>
 								</div>
 								<div class="sm:col-span-2">
@@ -185,7 +185,7 @@
 										<span id="message-max" class="text-sm text-warm-gray-500">Max. 500 characters</span>
 									</div>
 									<div class="mt-1">
-										<textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-yellow focus:border-base-yellow border border-warm-gray-300 rounded-md" aria-describedby="message-max"></textarea>
+										<textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm text-warm-gray-900 focus:ring-base-red-darken-3 focus:border-base-red-darken-3 border border-warm-gray-300 rounded-md" aria-describedby="message-max"></textarea>
 									</div>
 								</div>
 								<div class="sm:col-span-2 sm:flex sm:justify-end">
