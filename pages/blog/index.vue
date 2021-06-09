@@ -106,7 +106,7 @@ export default {
 	},
 
 	methods: {
-		submit() {
+		search() {
 			console.log('search ...')
 		}
 	}
