@@ -5,25 +5,25 @@
 			<div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 				<div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
 					<div class="absolute inset-0">
-						<img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">
-						<div class="absolute inset-0 bg-gradient-to-r from-purple-800 to-base-red-darken-3 mix-blend-multiply"></div>
+						<img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1548686304-89d188a80029?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80" alt="People working on laptops">
+						<div class="absolute inset-0 bg-gradient-to-r from-base-yellow to-base-red-darken-3 mix-blend-multiply"></div>
 					</div>
 					<div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
 						<h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-							<span class="block text-white">Take control of your</span>
-							<span class="block text-indigo-200">customer support</span>
+							<span class="block text-white">Game'Her</span>
+							<span class="block text-indigo-200">Reveal yourself today.</span>
 						</h1>
-						<p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
-							Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.
+						<p class="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-2xl">
+							Notre objectif est de nous rapprocher de la diversité des genres et des cultures dans l'industrie du jeu vidéo.
 						</p>
 						<div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
 							<div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8">
-									Get started
-								</a>
-								<a href="#" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8">
-									Live demo
-								</a>
+								<nuxt-link :to="{ name : 'index' }" v-scroll-to="'#join-us'" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-base-red-darken-3 bg-white hover:bg-white sm:px-8">
+									Nous rejoindre
+								</nuxt-link>
+								<nuxt-link :to="{ name : 'about' }" class="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-base-red-darken-3 sm:px-8">
+									En savoir plus
+								</nuxt-link>
 							</div>
 						</div>
 					</div>
@@ -42,27 +42,27 @@
 						<img class="h-12" src="https://gameher.fr/uploads/partners/lmn8_noir-5e9189665724e.png" alt="lmn8">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
-						<img class="h-12" src="https://gameher.fr/uploads/partners/newgotravellogosquaredepaiswhite-5e9189b610868.png" alt="Mirage">
+						<img class="h-12" src="~/assets/img/logo_NewGo-black.png" alt="New Go">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
 						<img class="h-12" src="https://gameher.fr/uploads/partners/e_a_noir-5e918b3086be4.png" alt="StaticKit">
 					</div>
 					<div class="col-span-1 flex justify-center md:col-span-2 md:col-start-2 lg:col-span-1">
-						<img class="h-12" src="https://gameher.fr/uploads/partners/logokonixretina-5e918ab566a59.png" alt="Transistor">
+						<img class="h-12" src="~/assets/img/logo_konix-black.png" alt="KONIX">
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<!-- Alternating Feature Sections -->
-		<div class="relative pt-16 pb-32 overflow-hidden">
+		<div class="relative pt-16 pb-32 overflow-hidden" id="join-us">
 			<div aria-hidden="true" class="absolute inset-x-0 top-0 h-48 bg-gradient-to-b from-gray-100"></div>
 			<div class="relative">
 				<div class="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24">
 					<div class="px-4 max-w-xl mx-auto sm:px-6 lg:py-16 lg:max-w-none lg:mx-0 lg:px-0">
 						<div>
 							<div>
-								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600">
+								<span class="h-12 w-12 rounded-md flex items-center justify-center bg-gradient-to-r from-base-light-gray to-base-yellow-2">
 									<!-- Heroicon name: outline/inbox -->
 									<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
 										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
@@ -79,9 +79,9 @@
 									Nous travaillons exclusivement sur Discord, donc vous n’avez aucune contrainte physique ! Et nous essayons au maximum d’organiser des rencontres IRL entre les membres de l’association dès que nous le pouvons.
 								</p>
 								<div class="mt-6">
-									<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-l from-purple-600 to-indigo-600 to-base-red-darken-3 hover:from-purple-700 hover:to-indigo-700">
+									<nuxt-link :to="{ name : '' }" class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-yellow-2 hover:from-purple-700 hover:to-indigo-700">
 										Nous rejoindre
-									</a>
+									</nuxt-link>
 								</div>
 							</div>
 						</div>
@@ -133,9 +133,9 @@
 									Nous souhaitons également les aider à évoluer dans les domaines du streaming et/ou de l’esport. Notre but étant de s’ouvrir à la mixité et à la diversité dans ces domaines tout en démocratisant la place de la femme dans l’univers du jeu vidéo.
 								</p>
 								<div class="mt-6">
-									<a href="#" class="inline-flex px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
+									<nuxt-link :to=" { name : 'about' } " class="inline-flex px-4 py-3 text-base font-medium rounded-md shadow-sm text-white bg-gradient-to-r from-base-light-gray to-base-red-darken-3">
 										En savoir plus
-									</a>
+									</nuxt-link>
 								</div>
 							</div>
 						</div>
@@ -161,11 +161,8 @@
 				<div class="mt-12 grid grid-cols-1 gap-x-6 gap-y-12 sm:grid-cols-2 lg:mt-16 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-16">
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/inbox -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_ESPORT.png" alt="Pôle Esport">
 							</span>
 						</div>
 						<div class="mt-6">
@@ -178,11 +175,8 @@
 
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/users -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_COMMUCATION.png" alt="PICTO COMMUCATION">
 							</span>
 						</div>
 						<div class="mt-6">
@@ -195,11 +189,8 @@
 
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/trash -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_TWITCH.png" alt="PICTO_TWITCH">
 							</span>
 						</div>
 						<div class="mt-6">
@@ -212,11 +203,8 @@
 
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/pencil-alt -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_TOURNOIS.png" alt="PICTO_TOURNOIS">
 							</span>
 						</div>
 						<div class="mt-6">
@@ -229,11 +217,8 @@
 
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/document-report -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_GRAPHISME.png" alt="PICTO_GRAPHISME">
 							</span>
 						</div>
 						<div class="mt-6">
@@ -246,11 +231,8 @@
 
 					<div>
 						<div>
-							<span class="flex items-center justify-center h-12 w-12 rounded-md bg-white bg-opacity-10">
-								<!-- Heroicon name: outline/reply -->
-								<svg class="h-6 w-6 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-									<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 10h10a8 8 0 018 8v2M3 10l6 6m-6-6l6-6" />
-								</svg>
+							<span class="flex items-center justify-center h-12 w-12">
+								<img src="https://gameher.fr/build/img/recrutement/PICTO_PRESSE.png" alt="PICTO_PRESSE">
 							</span>
 						</div>
 						<div class="mt-6">

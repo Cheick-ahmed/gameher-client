@@ -39,26 +39,26 @@
 											</h3>
 											<ul class="mt-4 space-y-4">
 												<li class="text-base truncate">
-													<nuxt-link :to="{ name : '' }" class="font-medium text-gray-900 hover:text-gray-700">
-														Boost your conversion rate
+													<nuxt-link :to="{ name : 'blog' }" class="font-medium text-gray-900 hover:text-gray-700">
+														Féminisme et jeux vidéo
 													</nuxt-link>
 												</li>
 
 												<li class="text-base truncate">
-													<nuxt-link :to="{ name : '' }" class="font-medium text-gray-900 hover:text-gray-700">
-														How to use search engine optimization to drive traffic to your site
+													<nuxt-link :to="{ name : 'blog' }" class="font-medium text-gray-900 hover:text-gray-700">
+														Le speed'10 runs de BiiWiX
 													</nuxt-link>
 												</li>
 
 												<li class="text-base truncate">
-													<nuxt-link :to="{ name : '' }" class="font-medium text-gray-900 hover:text-gray-700">
-														Improve your customer experience
+													<nuxt-link :to="{ name : 'blog' }" class="font-medium text-gray-900 hover:text-gray-700">
+														Choisir son logiciel de streaming: OBS vs Streamlabs
 													</nuxt-link>
 												</li>
 											</ul>
 										</div>
 										<div class="mt-5 text-sm">
-											<nuxt-link :to="{ name : '' }" class="font-medium text-indigo-600 hover:text-indigo-500"> View all posts <span aria-hidden="true">&rarr;</span></nuxt-link>
+											<nuxt-link :to="{ name : 'blog' }" class="font-medium text-base-red-darken-3"> Voir le blog <span aria-hidden="true">&rarr;</span></nuxt-link>
 										</div>
 									</div>
 								</div>
