@@ -1,7 +1,7 @@
 <template>
   <div>
     	<div class="max-w-7xl mx-auto text-5xl py-16 ">
-		<div class="bg-warm-gray-50">
+		<div class="">
 			<div>
 				<base-header-section description-color="text-base-red-darken-3">
 					<template #title>
