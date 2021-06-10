@@ -134,12 +134,17 @@
 
 
 		<script>
-		export default {
-			data () {
-				return {
+			export default {
+				head () {
+					return {
+						title: 'Nos partenaires',
+					}
+				},
+				data () {
+					return {
 
+					}
 				}
 			}
-		}
 		</script>
-		</template>
+	</template>

@@ -93,11 +93,11 @@
 </template>
 
 <script>
-	export default {
-		data () {
-			return {
-
-			}
+export default {
+	head () {
+		return {
+			title: 'Donations'
 		}
 	}
+}
 </script>

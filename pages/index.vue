@@ -321,6 +321,12 @@
 	import { mapActions } from 'vuex'
 
 	export default {
+		head () {
+			return {
+				title: 'Game\'her',
+				titleTemplate: ''
+			}
+		},
 		data () {
 			return {
 				email : ''

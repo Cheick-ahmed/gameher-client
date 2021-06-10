@@ -1,5 +1,5 @@
 <template>
-	<article class="space-y-2 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-start py-14">
+	<article class="space-y-4 xl:grid xl:grid-cols-4 xl:space-y-0 xl:items-start py-14">
 		<dl>
 			<dt class="sr-only">Published on</dt>
 			<dd class="text-base leading-6 font-medium text-gray-500">
@@ -32,7 +32,7 @@
 			</dd>
 		</dl>
 		<div class="space-y-5 xl:col-span-3">
-			<div class="space-x-2">
+			<div class="space-x-2 space-y-2">
 				<base-badge v-for="(tag,index) in article.tags" :key="index" :color="tag.color">
 					{{ tag.text }}
 				</base-badge>

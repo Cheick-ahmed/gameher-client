@@ -102,7 +102,7 @@
 								</li>
 
 								<li>
-									<nuxt-link :to="{ name : 'partenaires' }" class="text-base text-gray-500 hover:text-gray-900">
+									<nuxt-link :to="{ name : 'partners' }" class="text-base text-gray-500 hover:text-gray-900">
 										Partenaires
 									</nuxt-link>
 								</li>

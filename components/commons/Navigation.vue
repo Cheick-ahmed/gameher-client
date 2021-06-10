@@ -5,7 +5,7 @@
 				<div class="flex justify-start lg:w-0 lg:flex-1">
 					<nuxt-link :to="{ name : 'index' }">
 						<span class="sr-only">Game'Her</span>
-						<img class="h-8 w-auto sm:h-20 transform -translate-x-2" src="~/assets/SVG/GH_color_horizontal.svg" alt="">
+						<img class="h-16 w-auto sm:h-20 transform -translate-x-2" src="~/assets/SVG/GH_color_horizontal.svg" alt="">
 					</nuxt-link>
 				</div>
 				<div class="-mr-2 -my-2 md:hidden">
@@ -142,11 +142,11 @@
 
 			<transition enter-active-class="duration-200 ease-out" enter-from-class="opacity-0 scale-95" enter-to-class="opacity-100 scale-100" leave-active-class="duration-100 ease-in" leave-from-class="opacity-100 scale-100" leave-to-class="opacity-0 scale-95">
 				<div v-if="mobileMenu" class="absolute z-50 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden">
-					<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
-						<div class="pt-5 pb-6 px-5">
+					<div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-1 divide-gray-50">
+						<div class="py-4 px-5">
 							<div class="flex items-center justify-between">
 								<div>
-									<img class="h-8 w-auto" src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg" alt="Workflow">
+									<img class="h-12 w-auto" src="~/assets/SVG/GH_color_horizontal.svg" alt="Workflow">
 								</div>
 								<div class="-mr-2">
 									<button type="button" @click.prevent="mobileMenu = false" class="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -161,7 +161,7 @@
 
 							<div class="mt-6">
 								<nav class="pt-2 pb-3 space-y-1">
-									<nuxt-link :to="{ name : '' }" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">News & Articles</nuxt-link>
+									<nuxt-link :to="{ name : 'blog' }" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">News & Articles</nuxt-link>
 
 									<nuxt-link :to="{ name : 'esport' }" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Esport</nuxt-link>
 

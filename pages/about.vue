@@ -59,25 +59,25 @@
 						</div>
 						<div class="mt-10 w-full max-w-md flex justify-end items-center space-x-4">
 							<base-badge
-								v-for="(badge, index) in badges"
-								:color="badge.color"
-								:key="index"
-								:text="badge.text"
+							v-for="(badge, index) in badges"
+							:color="badge.color"
+							:key="index"
+							:text="badge.text"
 							>
-								{{ badge.text }}
-							</base-badge>
-						</div>
+							{{ badge.text }}
+						</base-badge>
 					</div>
-					<div class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+				</div>
+				<div class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
 
-						<base-team-member-card v-for="(member, index) in members" :key="index" :member="member" />
-						<!-- More people... -->
-					</div>
+					<base-team-member-card v-for="(member, index) in members" :key="index" :member="member" />
+					<!-- More people... -->
 				</div>
 			</div>
 		</div>
-
 	</div>
+
+</div>
 </div>
 </template>
 
@@ -85,13 +85,18 @@
 import members from '~/data/members.json'
 
 export default {
+	head () {
+		return {
+			title: 'A propos',
+		}
+	},
 	data () {
 		return {
 			badges:[
-				{text: 'Bureau', color:'yellow'},
-				{text: 'Administration', color:'red'},
-				{text: 'Membres', color: ''},
-				{text: 'Esport', color: 'indigo'}
+			{text: 'Bureau', color:'yellow'},
+			{text: 'Administration', color:'red'},
+			{text: 'Membres', color: ''},
+			{text: 'Esport', color: 'indigo'}
 			],
 			members: members
 		}

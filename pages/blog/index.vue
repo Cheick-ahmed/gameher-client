@@ -10,7 +10,7 @@
 						<p class="text-xl text-gray-500">
 							Get weekly articles in your inbox on how to grow your business.
 						</p>
-						<form class="mt-6 flex space-x-4 flex-col sm:flex-row lg:mt-0 lg:justify-end" @submit.prevent="search">
+						<form class="hidden sm:flex mt-6 flex space-x-4 flex-col sm:flex-row lg:mt-0 lg:justify-end" @submit.prevent="search">
 							<div class="flex-1 min-w-0">
 								<label for="search" class="sr-only">Search</label>
 								<div class="relative rounded-md shadow-sm">
@@ -20,10 +20,10 @@
 											<path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
 										</svg>
 									</div>
-									<input type="search" name="search" v-model="search" autocomplete="off" id="search" class="py-3 focus:ring-base-orange focus:border-base-orange block w-full pl-10 sm:text-sm border-gray-300 rounded-md" placeholder="Ex: streaming, actualités ...">
+									<input type="search" name="search" v-model="text" autocomplete="off" id="search" class="py-3 focus:ring-base-orange focus:border-base-orange block w-full pl-10 sm:text-sm border-gray-300 rounded-md" placeholder="Ex: streaming, actualités ...">
 								</div>
 							</div>
-							<button type="submit" class="inline-flex justify-center px-3.5 py-3 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-orange">
+							<button type="button" class="inline-flex justify-center px-3.5 py-3 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-base-orange">
 								<!-- Heroicon name: solid/filter -->
 								<svg class="h-5 w-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 									<path fill-rule="evenodd" d="M3 3a1 1 0 011-1h12a1 1 0 011 1v3a1 1 0 01-.293.707L12 11.414V15a1 1 0 01-.293.707l-2 2A1 1 0 018 17v-5.586L3.293 6.707A1 1 0 013 6V3z" clip-rule="evenodd" />
@@ -89,26 +89,32 @@
 </template>
 
 <script>
-import articles from '~/data/articles.json'
-export default {
-	data () {
-		return {
-			search: '',
-			articles: articles
-		}
-	},
-	computed: {
-		filteredArticles() {
-			return this.articles.filter((article) => {
-				return article.author.name === this.search
-			})
-		}
-	},
+	import articles from '~/data/articles.json'
 
-	methods: {
-		search() {
-			console.log('search ...')
+	export default {
+		head () {
+			return {
+				title: 'Le blog',
+			}
+		},
+		data () {
+			return {
+				text: '',
+				articles: articles
+			}
+		},
+		computed: {
+			filteredArticles() {
+				return this.articles.filter((article) => {
+					return article.author.name === this.text
+				})
+			}
+		},
+
+		methods: {
+			search() {
+				console.log('search ...')
+			}
 		}
 	}
-}
 </script>
